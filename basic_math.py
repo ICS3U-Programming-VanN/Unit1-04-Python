@@ -5,13 +5,19 @@
 # This program prints basic math operations.
 
 
+# Imports Math library
+import math
+
+
+# Outputs Several math operations
 def main():
-    print("12121 + 1000 = {}".format(12121 + 1000))
-    print("50 - 25 = {}".format(50 - 25))
-    print("30 / 3 = {}".format(30 / 3))
-    print("10 + 15 * 2 = {}".format(10 + 15 * 2))
-    print("2^10 = {}".format(2**10))
-    print("3 / 3 * 10 = {}".format(3 / 3 * 10))
+    print("Addition: 12121 + 1000 = {}".format(12121 + 1000))
+    print("Subtraction: 50 - 25 = {}".format(50 - 25))
+    print("Division: 4 / 3 = {:.2f}".format(4 / 3))
+    print("Multiplication: 15 * 2 = {}".format(15 * 2))
+    print("Exponent: 2^10 = {}".format(2**10))
+    print("Square Root: √25 = {}".format(math.sqrt(25)))
+    print("Decimal Number: √20 = {:.2f}".format(math.sqrt(20)))
 
 
 if __name__ == "__main__":
