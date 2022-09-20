@@ -2,9 +2,11 @@
 
 # Created by: Van Nguyen
 # Created on: September 16, 2022
-# This program calculates and displays the area and perimeter of a rectangle with length of 12cm and width of 2533cm.
+# This program calculates and displays the area and perimeter of a rectangle
+# with a length of 12cm and a width of 2533cm.
 
 
+# Outputs Area and Perimeter of rectangle
 def main():
     print("For a rectangle that has dimensions of:")
     print("Length: 12cm and Width: 2533cm:\n")

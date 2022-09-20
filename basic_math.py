@@ -19,6 +19,7 @@ def main():
     print("Square Root: √25 = {}".format(math.sqrt(25)))
     print("Decimal Number: √20 = {:.2f}".format(math.sqrt(20)))
 
+
 # Points out that this file should be ran
 if __name__ == "__main__":
     main()
